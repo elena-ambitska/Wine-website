@@ -680,6 +680,76 @@ hr {
     margin-bottom: 44px;
 }
 
+.product-thumbnail img {
+
+    height: 100px;
+}
+
+.product-remove {
+    color: #E2B024;
+    border: 1px solid #E2B024;
+  text-align: center;
+  padding: 10px;
+    
+}
+
+.product-name,
+.product-price {
+
+    font-family: ChocolateBox;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.product-name a {
+    color: #FFFFFF;
+}
+
+.product-guantity input {
+    height: 50px;
+    width: 50px;
+    color: #000000;
+    font-family: ChocolateBox;
+    font-size: 24px;
+    text-align: center;
+    background-color: #E2B024;
+    margin-left: 40px;
+}
+
+.product-subtotal {
+    font-family: ChocolateBox;
+    font-size: 24px;
+    color:#E2B024;
+}
+.col-md-1{
+        flex: 0 0 8.3333%;
+        max-width: 8.3333%;
+}
+.input-text{
+   margin-top: 20px;
+   background-color:#1F1F1F;
+   border:1px solid #E2B024;
+}
+.button {
+    background-color:#E2B024;
+height: 35px;
+width: 100px;
+}
+.cart-subtotal, .cart-total{
+justify-content: flex-end;
+display: flex;
+padding-top:50px ;
+font-family: ChocolateBox;
+    font-size: 24px;
+    color:#E2B024;
+}
+.cart-subtotal{
+    color:#FFFFFF;
+}
+.check{
+    margin-top: 50px;
+}
+
 @font-face {
     font-family: ChocolateBox;
     src: url("font/C_BOX.TTF");
@@ -789,6 +859,7 @@ hr {
     .slogan {
         margin-top: 20px;
     }
+
 }
 
 @media(min-width:768px) and (max-width:1199px) {
@@ -828,6 +899,5 @@ hr {
         width: 100%;
 
     }
-
 
 }
