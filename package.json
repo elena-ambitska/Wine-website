@@ -4,7 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch=scss scss/main.scss -o=css"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/elena-ambitska/Wine-website/issues"
   },
-  "homepage": "https://github.com/elena-ambitska/Wine-website#readme"
+  "homepage": "https://github.com/elena-ambitska/Wine-website#readme",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
 }
