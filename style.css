@@ -167,7 +167,10 @@ h4 {
     color: #FFFFFF;
     text-align: center;
 }
-
+.banner h4{
+    margin-top: 190px;
+    margin-bottom: 32px;
+}
 .price {
     color: #E2B024;
     font-size: 24px;
@@ -211,6 +214,8 @@ p {
     line-height: 9px;
     letter-spacing: 0em;
     padding: 35px 0 37px 0;
+    margin-bottom:174px;
+    margin-top: 75px;
 }
 
 .banner-img {
@@ -309,6 +314,7 @@ h3 {
 
 .second p {
     text-align: left;
+    margin-bottom: 64px;
 }
 
 button {
@@ -333,6 +339,8 @@ h3.futured {
     font-family: ChocolateBox;
     font-size: 48px;
     text-align: center;
+    margin-top:154px ;
+    margin-bottom: 58px;
 }
 
 .categories {
@@ -403,6 +411,7 @@ h3.futured {
     opacity: .4;
     z-index: -1;
     background: url(img/review/Rectangle\ 12.png);
+    background-size:cover;
 }
 
 .photo {
@@ -577,6 +586,7 @@ button.send {
     padding-right: 20px;
     background-color: #E2B024;
     color: #000000;
+    margin-bottom: 160px;
 }
 
 .top {
@@ -585,6 +595,7 @@ button.send {
 
 .subscribe {
     background-color: #18191A;
+   padding-bottom: 63px;
 }
 
 .subscribe h3 {
@@ -603,10 +614,12 @@ button.send {
     margin-bottom: 60px;
 }
 
+
 .news-form input {
     background-color: #000000;
     flex-grow: 1;
     border: none;
+  
 }
 
 .news-form {
