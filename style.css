@@ -749,7 +749,37 @@ font-family: ChocolateBox;
 .check{
     margin-top: 50px;
 }
+.quantity-product button{
+width: 25%;
+height: 50px;
 
+}
+.quantity-product input{
+    margin-top: 50px;
+}
+.product-page,h4,p{
+    margin-top: 50px;
+}
+.tabs li{
+background-color: transparent;
+    border:1px solid white;
+
+}
+.tabs li:hover{
+    background-color:#1F1F1F; 
+   
+}
+.tabs a{
+    color:#FFFFFF;
+    padding-left:10px;
+}
+.row .tabs{
+    align-items: flex-start;
+}
+.img-product{
+    text-align: center;
+   
+}
 @font-face {
     font-family: ChocolateBox;
     src: url("font/C_BOX.TTF");
@@ -859,7 +889,15 @@ font-family: ChocolateBox;
     .slogan {
         margin-top: 20px;
     }
-
+    .img-product{
+        padding-top: 20px;
+    }
+    .product-page, h4, p {
+        margin-top: 0;
+    }
+    .quantity-product button {
+        width: 50%;
+    }
 }
 
 @media(min-width:768px) and (max-width:1199px) {
