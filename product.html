@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header class="header">
         <div class="container">
@@ -52,41 +54,103 @@
 
         </div>
     </header>
-<div class="section">
-    <div class="container">
-        <div class="row">
-        <div class=" col-xs-12 col-md-5 img-product">
-            <img src="img/products/screenshot-www.planetwine.co.nz-2020.10 1.png" alt="boutle">
-        </div>
-    
-    <div class="col-xs-12 col-md-7 product-page">
-        <h4>Silver Oak </h4>
-        <p class="price">$450.00</p>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci dolor nulla possimus quos doloribus minima.</p>
-        <div class="product-guantity quantity-product">
-            <input type="number" value="1">
-        
-        <button>Add to cart</button>
-    </div>
-        <hr>
-        <p>SKU: KET04</p>
-    </div>
-    </div>
-    <div class="row">
-        <div class="col-xs-12 col-md-5">
-            <ul class="tabs">
-                <li><h3><a href="">Description<div class="caret active"></div></a></h3></li>
-                <li><h3><a href="">Reviews <div class="caret"></div></a></h3></li>
-            </ul>
-        </div>
-        <div class="col-xs-12 col-md-7 ">
-            <h3>Description</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam magnam repudiandae ipsam voluptatum nihil voluptate quas, quibusdam, nesciunt eligendi atque eos mollitia sapiente magni voluptatem, nulla ad dolor enim officiis?</p>
-        </div>
-    </div>
-</div>
-</div>
+    <div class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="tabs">
+                        <ul class="tabs-list">
+                            <li class="tabs-item active" data-for="product">All about item</li>
+                            <li class="tabs-item" data-for="characteristics">Сharacteristic</li>
+                            <li class="tabs-item " data-for="review" >Reviews</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class=" col-xs-12 col-md-5 img-product">
+                    <img src="img/products/screenshot-www.planetwine.co.nz-2020.10 1.png" alt="boutle">
+                </div>
 
+                <div class="col-xs-12 col-md-7 product-page tab-body active" id="product">
+                    <h4>Silver Oak </h4>
+                    <p class="price">$450.00</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci dolor nulla possimus quos
+                        doloribus minima.</p>
+                    <div class="product-guantity quantity-product">
+                        <input type="number" value="1">
+
+                        <button>Add to cart</button>
+                    </div>
+                    <hr>
+                    <p>SKU: KET04</p>
+                </div> 
+                 <div class="col-md-7 characteristic tab-body" id="characteristics">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <ul>
+                            <li>View</li>
+                            <li>Color</li>
+                            <li>Country</li>
+                            <li>Sugar content</li>
+                            <li>Volume, l</li>
+                            <li>Grape sort</li>
+                            <li>Classification</li>
+                            <li>Holding time</li>
+                            <li>Alcohol</li>
+                            <li>Taste</li>
+                        </ul>
+                        </div>
+                  
+                        <div class="col-md-6">
+                            <ul>
+                            <li>Cava</li>
+                            <li>Red</li>
+                            <li>Italia</li>
+                            <li>Brut</li>
+                            <li>0.75</li>
+                            <li>Xarelto</li>
+                            <li>DO</li>
+                            <li>12 month</li>
+                            <li>11.5%</li>
+                            <li>The wine has a light, delicate, well-balanced taste with a refreshing
+                                aftertaste.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> 
+
+                <div class="col-md-7 reviews tab-body" id="review">
+                    <form class="reviews-form ">
+                            
+                        <div class="row">
+                            <div class="col-xs-12 col-md-6">
+
+                                <label for="name">Your name</label>
+                                <input type="text" name="Your name" id="name">
+
+                            </div>
+                            <div class="col-xs-12 col-md-6">
+                                <label for="email">Your email</label>
+                                <input type="email" name="Your email" id="email">
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <label for="message">Message</label>
+                                <textarea name="message" id="message" cols="60" rows="10" class="message-form"></textarea>
+                            <button class="send-form">Send form</button>
+                          
+                            
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
 
     <section class="footers">
         <div class="container">
@@ -180,4 +244,5 @@
     </section>
 </body>
 <script src="app.js"></script>
+
 </html>
