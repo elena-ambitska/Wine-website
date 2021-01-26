@@ -1,0 +1,64 @@
+h3.futured {
+    @include fontStyleChocolateBoxWhite(48px);
+    margin-top: 154px;
+    margin-bottom: 58px;
+}
+
+.categories {
+    @include flexCenter();
+
+    vertical-align: bottom;
+    .spacer {
+        content: "&nbsp;";
+        border-bottom: 1px solid $white;
+        padding: 0 40px;
+        display: block;
+        height: 34px;
+        
+    }
+
+    a {
+        @include fontStylePoppinsWhite(24px);
+        line-height: 36px;
+        border-bottom: 1px solid $white;
+    }
+
+    .spacer.active {
+        border-bottom-color: $yellow;
+    }
+
+    .active a {
+        color: $yellow;
+        border-bottom: 1px solid $yellow;
+    }
+}
+
+.product {
+    position: relative;
+    text-align: center;
+    margin-top: 90px;
+    h4{
+@include fontStyleChocolateBoxWhite(24px);
+    }
+    .price {
+        @include fontStylePoppinsYellow(24px);
+    }
+        s {
+            @include fontStylePoppinsYellow(16px);
+        }
+}
+    .discount {
+        position: absolute;
+        width: 81px;
+        height: 40px;
+        color: $black;
+        background-color: $yellow;
+        font-size: 14px;
+        text-align: center;
+        line-height: 40px;
+        left: 0;
+        top: 20px;
+
+        
+        }
+    

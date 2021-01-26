@@ -1,0 +1,136 @@
+.banner {
+    background-color: $black;
+    margin-top: 190px;
+    margin-bottom: 32px;
+
+    h4 {
+        @include fontStyleChocolateBoxWhite(24px);
+    }
+}
+
+h1 {
+    @include fontStyleChocolateBoxWhite(96px);
+
+    b {
+        color: $yellow;
+    }
+}
+
+p {
+    @include fontStylePoppinsWhite(16px);
+}
+
+.read-more {
+    @include fontStyleChocolateBoxYellow(16px);
+    text-decoration: underline;
+    line-height: 9px;
+    padding: 35px 0 37px 0;
+    margin-bottom: 174px;
+    margin-top: 75px;
+    display: block;
+    
+}
+
+
+.banner-img {
+    text-align: center;
+}
+
+.second {
+    background: $grey;
+    p {
+        text-align: left;
+        margin-bottom: 64px;
+    }
+}
+
+.slider {
+    position: relative;
+
+    .boutle {
+        position: relative;
+        z-index: 100;
+        text-align: center;
+    }
+        .square {
+            border: 10px solid $yellow;
+            text-align: center;
+            position: absolute;
+            z-index: 0;
+            height: 480px;
+            margin: auto;
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            background-image: url("img/main/Ellipse\ 1.png");
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+            .prev,
+            .next {
+                position: absolute;
+                display: block;
+                background-color: $grey;
+                top: 0;
+                bottom: 0;
+                @include fontStylePoppinsWhite(20px);
+                line-height: 60px;
+                text-decoration: underline;
+                height: 60px;
+                margin: auto;
+
+            }
+
+            .prev {
+                left: 0;
+                right: auto;
+                margin-left: -20px;
+            }
+
+            .next {
+                left: auto;
+                right: 0;
+                margin-right: -20px;
+            }
+        
+            .slick-slide img {
+                margin: auto;
+            }
+}
+
+
+
+h5 {
+    @include fontStylePoppinsWhite(20px,left);
+    letter-spacing: 0.35em;
+    line-height: 34px;
+}
+
+h2 {
+ @include fontStyleChocolateBoxYellow(74px,left);
+    line-height: 43px;
+    padding: 47px 0 12px 0;
+}
+
+h3 {
+  @include fontStylePoppinsWhite(36px, left);
+    line-height: 61px;
+}
+
+
+
+button {
+    width: 100%;
+    height: 69px;
+    @include fontStylePoppinsWhite(24px);
+    border: 1px solid $yellow;
+    background: transparent;
+    line-height: 24px;
+    button:hover {
+        background-color:$yellow;
+        color: #1F1F1F;
+    }
+}
+

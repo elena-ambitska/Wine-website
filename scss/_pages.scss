@@ -1,0 +1,199 @@
+
+hr {
+    margin-top: 92px;
+    margin-bottom: 22px;
+    height: 1px;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    border-top: none;
+
+}
+
+.copy {
+    margin-bottom: 44px;
+}
+
+.product-thumbnail img {
+
+    height: 100px;
+}
+
+.product-remove {
+    color: #E2B024;
+    border: 1px solid #E2B024;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.product-name,
+.product-price,
+.product-guantity {
+
+    font-family: ChocolateBox;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.product-name a {
+    color: #FFFFFF;
+}
+
+.product-guantity input {
+    height: 50px;
+    width: 50px;
+    color: #000000;
+    font-family: ChocolateBox;
+    font-size: 24px;
+    text-align: center;
+    background-color: #E2B024;
+    margin-left: 40px;
+}
+
+.product-subtotal {
+    font-family: ChocolateBox;
+    font-size: 24px;
+    color: #E2B024;
+}
+
+
+.input-text {
+    margin-top: 20px;
+    background-color: #1F1F1F;
+    border: 1px solid #E2B024;
+}
+
+.button {
+    background-color: #E2B024;
+    height: 35px;
+    width: 100px;
+}
+
+.cart-subtotal,
+.cart-total {
+    justify-content: flex-end;
+    display: flex;
+    padding-top: 50px;
+    font-family: ChocolateBox;
+    font-size: 24px;
+    color: #E2B024;
+}
+
+.cart-subtotal {
+    color: $white;
+}
+
+.check {
+    margin-top: 50px;
+}
+
+.quantity-product button {
+    width: 50%;
+    height: 50px;
+
+}
+
+.quantity-product input {
+    margin-top: 50px;
+  
+}
+.product-page, h4, p {
+    margin-top: 50px;
+}
+
+.names{
+@include fontStyleChocolateBoxWhite(24px);
+@include flexCenter(flex-start);
+}
+
+    .price{
+       @include fontStyleChocolateBoxYellow(24px, left);
+    }
+
+
+.img-product {
+    text-align: center;
+align-self: flex-start;
+    
+}
+
+.tabs {
+    background-color: #1F1F1F;
+}
+
+.tabs ul {
+    text-align: center;
+}
+
+.tabs li {
+    display: inline-block;
+    padding-right: 100px;
+    padding-top: 20px;
+    height: 50px;
+    color: #E2B024;
+    font-family: Poppins;
+    font-size: 20px;
+
+}
+
+.tabs li:hover {
+    color: #FFFFFF;
+    text-decoration: underline;
+
+}
+
+.characteristic li {
+    padding-bottom: 15px;
+
+
+}
+
+.characteristic li:nth-child(1) {
+    margin-top: 50px;
+}
+
+.characteristic .row {
+    align-items: flex-start;
+}
+
+.reviews-form label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    
+}
+
+.reviews-form input,
+textarea {
+    width: 100%;
+    background-color: #bdc1c4;
+    border: none;
+}
+
+.reviews-form input {
+    height: 50px;
+    margin-top: 20px;
+}
+
+.send-form {
+    background-color: #E2B024;
+    border-radius: 10px;
+    height: 40px;
+    width: 150px;
+    border: 1px solid #E2B024;
+    margin: 15px 0;
+}
+
+.tab-body {
+    display: none;
+}
+
+.tab-body.active {
+    display: block;
+}
+
+.img-product .row {
+    align-items: flex-start;
+}
+.col-xs-show{
+    display: none;
+}

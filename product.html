@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product</title>
     <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
@@ -60,69 +60,79 @@
                 <div class="col-md-12">
                     <div class="tabs">
                         <ul class="tabs-list">
-                            <li class="tabs-item active" data-for="product">All about item</li>
-                            <li class="tabs-item" data-for="characteristics">Сharacteristic</li>
-                            <li class="tabs-item " data-for="review" >Reviews</li>
+                            <li class=" tabs-item active" data-for="product">All about item</li>
+                            <li class=" tabs-item" data-for="characteristics">Сharacteristic</li>
+                            <li class=" tabs-item " data-for="review">Reviews</li>
                         </ul>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class=" col-xs-12 col-md-5 img-product">
+                    <div><h4 class="names col-xs-show">Silver Oak </h4></div>
+                    <div> <p class="price col-xs-show">$450.00</p></div>
                     <img src="img/products/screenshot-www.planetwine.co.nz-2020.10 1.png" alt="boutle">
-                </div>
-
-                <div class="col-xs-12 col-md-7 product-page tab-body active" id="product">
-                    <h4>Silver Oak </h4>
-                    <p class="price">$450.00</p>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci dolor nulla possimus quos
-                        doloribus minima.</p>
                     <div class="product-guantity quantity-product">
+
                         <input type="number" value="1">
 
                         <button>Add to cart</button>
                     </div>
+                </div>
+
+                <div class="col-xs-12 col-md-7 product-page tab-body active" id="product">
+                    <h4 class="names col-xs-hide">Silver Oak </h4>
+                    <p class="price col-xs-hide">$450.00</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus reprehenderit fugit itaque nisi
+                        optio alias provident possimus? Optio omnis dolore accusamus sunt sint unde placeat nemo, saepe
+                        suscipit animi esse facilis incidunt aliquid odio, eaque eligendi culpa libero non ullam magni
+                        sit! Consequuntur illum quisquam maxime porro culpa repudiandae odit..</p>
+                   
                     <hr>
                     <p>SKU: KET04</p>
-                </div> 
-                 <div class="col-md-7 characteristic tab-body" id="characteristics">
+                </div>
+                <div class="col-md-7 characteristic tab-body" id="characteristics">
+                    <h4 class="names">Silver Oak </h4>
+                    <p class="price">$450.00</p>
                     <div class="row">
                         <div class="col-md-6">
                             <ul>
-                            <li>View</li>
-                            <li>Color</li>
-                            <li>Country</li>
-                            <li>Sugar content</li>
-                            <li>Volume, l</li>
-                            <li>Grape sort</li>
-                            <li>Classification</li>
-                            <li>Holding time</li>
-                            <li>Alcohol</li>
-                            <li>Taste</li>
-                        </ul>
+                                <li>View</li>
+                                <li>Color</li>
+                                <li>Country</li>
+                                <li>Sugar content</li>
+                                <li>Volume, l</li>
+                                <li>Grape sort</li>
+                                <li>Classification</li>
+                                <li>Holding time</li>
+                                <li>Alcohol</li>
+                                <li>Taste</li>
+                            </ul>
                         </div>
-                  
+
                         <div class="col-md-6">
                             <ul>
-                            <li>Cava</li>
-                            <li>Red</li>
-                            <li>Italia</li>
-                            <li>Brut</li>
-                            <li>0.75</li>
-                            <li>Xarelto</li>
-                            <li>DO</li>
-                            <li>12 month</li>
-                            <li>11.5%</li>
-                            <li>The wine has a light, delicate, well-balanced taste with a refreshing
-                                aftertaste.</li>
+                                <li>Cava</li>
+                                <li>Red</li>
+                                <li>Italia</li>
+                                <li>Brut</li>
+                                <li>0.75</li>
+                                <li>Xarelto</li>
+                                <li>DO</li>
+                                <li>12 month</li>
+                                <li>11.5%</li>
+                                <li>The wine has a light, delicate, well-balanced taste with a refreshing
+                                    aftertaste.</li>
                             </ul>
                         </div>
                     </div>
-                </div> 
+                </div>
 
                 <div class="col-md-7 reviews tab-body" id="review">
+                    <h4 class="names">Silver Oak </h4>
+                    <p class="price">$450.00</p>
                     <form class="reviews-form ">
-                            
+
                         <div class="row">
                             <div class="col-xs-12 col-md-6">
 
@@ -139,10 +149,11 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <label for="message">Message</label>
-                                <textarea name="message" id="message" cols="60" rows="10" class="message-form"></textarea>
-                            <button class="send-form">Send form</button>
-                          
-                            
+                                <textarea name="message" id="message" cols="60" rows="10"
+                                    class="message-form"></textarea>
+                                <button class="send-form">Send form</button>
+
+
                             </div>
                         </div>
                     </form>

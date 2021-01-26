@@ -33,7 +33,7 @@ body {
 
 .header .menu-right ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-betweenspace-between;
 }
 
 a {
@@ -869,7 +869,9 @@ textarea {
     display: block;
 }
 
-
+ .img-product .row{
+    align-items:flex-start;
+}
 @font-face {
     font-family: ChocolateBox;
     src: url("font/C_BOX.TTF");

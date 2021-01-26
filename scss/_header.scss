@@ -1,0 +1,70 @@
+.slogan {
+    font-family: Poppins;
+    font-size: 12px;
+    color:$white;
+}
+
+.logo {
+    flex-direction: row;
+    @include flexCenter();
+}
+
+.header .menu-right ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+}
+
+.iconly {
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+
+}
+.search {
+    background-image: url("../img/header/Search.svg");
+}
+
+.bag {
+    background-image: url("../img/header/Bag\ 2.svg");
+}
+
+.frame {
+    background-image: url("../img/header/Frame.svg");
+}
+.col-xs-show {
+    display: none;
+}
+
+.main-menu {
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    border-left: none;
+    border-right: none;
+    padding: 22px 0;
+    ul {
+        flex-direction: row;
+        @include flexCenter(space-around);
+        .active a {
+            color:$yellow;
+            text-decoration: underline;
+        }
+        a {
+            font-family: ChocolateBox;
+            font-size: 16px;
+            color:$white;
+            
+        }
+    }
+}
+
+.menu-right li a {
+    font-family: Poppins;
+    font-size: 12px;
+    line-height: 18px;
+    color:$white;
+
+}
+

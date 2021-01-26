@@ -1,0 +1,50 @@
+$yellow: #E2B024;
+$grey: #18191A; 
+$white: #FFFFFF;
+$black: #000000;
+$center: center;
+
+@mixin flexCenter($value:center) {
+    display: flex;
+    justify-content: $value;
+    align-items:center;
+}
+
+@mixin paddingLeftRight() {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+@mixin fontStyleChocolateBoxWhite($value, $align:center) {
+    font-family: ChocolateBox;
+    font-size: $value;
+    font-weight: 400;
+    letter-spacing: 0em;
+    color: $white;
+    text-align: $align;
+}
+
+@mixin fontStyleChocolateBoxYellow($value, $align:center) {
+    font-family: ChocolateBox;
+    font-size: $value;
+    font-weight: 400;
+    letter-spacing: 0em;
+    color: $yellow;
+    text-align: $align;
+}
+@mixin fontStylePoppinsYellow($value, $align:center) {
+    font-family: Poppins;
+    font-size: $value;
+    font-weight: 400;
+    letter-spacing: 0em;
+    color: $yellow;
+    text-align: $align;
+}
+@mixin fontStylePoppinsWhite($value, $align:center) {
+    font-family: Poppins;
+    font-size: $value;
+    font-weight: 400;
+    letter-spacing: 0em;
+    color: $white;
+    text-align: $align;
+}

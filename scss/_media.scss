@@ -1,0 +1,153 @@
+@media(min-width:768px) and (max-width:1199px) {
+    .events-slider .direction-right {
+        right: 0;
+    }
+
+    .events-slider .direction-left {
+        left: 0;
+    }
+
+  
+    .col-sm-hide {
+        display: none;
+    }
+
+    [class*=fill] {
+        margin-top: 30px;
+        margin-right: 5px;
+    }
+
+    .size-s [class*=fill] {
+        margin-top: 0px;
+        margin-right: 5px;
+    }
+
+    button.send {
+        width: 100%;
+
+    }
+
+}
+@media(max-width:768px) {
+
+    .col-xs-hide {
+        display: none;
+    }
+
+    .col-xs-show {
+        display: inline-block;
+    }
+
+    .direction-right {
+        right: 0;
+    }
+
+    .direction-left {
+        left: 0;
+    }
+
+    .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    button {
+        margin-top: 20px;
+    }
+
+    .offer-item img {
+        margin-top: 20px;
+    }
+
+    .offer-item {
+        justify-content: center;
+    }
+
+    .offer-item .item {
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .events-slider .col-xs-12 {
+        justify-content: center;
+        text-align: center;
+    }
+
+    [class*=fill] {
+        margin-top: 40px;
+        margin-right: 30px;
+    }
+
+    .row-form:first-child {
+        margin-top: 40px;
+    }
+
+    button.send {
+        width: 100%;
+    }
+
+    .news-form button {
+        margin-top: 0;
+    }
+
+    .banner-img img {
+        max-width: 100%;
+    }
+
+    .header .main-menu ul {
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 20px;
+
+    }
+
+    .main-menu {
+        display: none;
+    }
+
+    .main-menu.active {
+        display: block;
+    }
+
+    .logo {
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .slogan {
+        margin-top: 20px;
+    }
+
+    .img-product {
+        padding-top: 20px;
+    }
+
+    .product-page,
+    h4,
+    p {
+        margin-top: 10px;
+    }
+
+    .quantity-product button {
+        width: 50%;
+    }
+
+    .tabs-list{
+        display: flex;
+        flex-direction: column;
+       
+    li{
+        padding-right: 0;
+        width: 100%;
+    }
+    }
+    .img-product {
+        text-align: center;
+    align-self: flex-start;
+        
+    }
+    .price{
+        margin-top: 20px;
+    }
+}

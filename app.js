@@ -19,3 +19,23 @@ function openTab(evt){
     let tabId=evt.currentTarget.getAttribute("data-for");
     document.getElementById(tabId).className += " active";
 }
+
+$(".boutle").slick({
+    "prevArrow":".prev",
+    "nextArrow":".next",
+    centerMode: true,
+    slidesToShow: 1,
+  slidesToScroll: 1,
+    centerMode: true,
+    focusOnSelect: true
+
+});
+
+$(".review-slide").slick({
+    arrows: false,
+    dots: true,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 1,
+    adaptiveHeight: true 
+})

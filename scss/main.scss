@@ -1,4 +1,23 @@
-@import "grid.scss";
-@import "banner.scss";
-@import "header.scss";
-@import "reviews.scss";
+@import "./variables";
+@import "./grid";
+@import "./banner";
+@import "./header";
+@import "./reviews";
+@import "./list";
+@import "./sliders";
+@import "./contact";
+@import "./pages";
+@import "./media";
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serifa;
+    background-color: $black;
+    color: $white;
+}
+

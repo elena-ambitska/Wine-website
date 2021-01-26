@@ -1,0 +1,68 @@
+.offer-item {
+    position: relative;
+    height: 100%;
+    @include flexCenter();
+
+    .item {
+        position: absolute;
+        top: auto;
+        bottom: 50px;
+        left: 30px;
+        img {
+            display: block;
+        }
+        h4{
+            @include fontStyleChocolateBoxWhite(24px);
+        }
+        p{
+            @include fontStylePoppinsYellow(24px);
+        }
+    }
+}
+.amazing .row {
+    align-items: stretch;
+}
+
+
+.circle {
+    padding: 100px;
+}
+
+.futured{
+    b{
+        color:$yellow;
+    }
+}
+
+.events-slider {
+    position: relative;
+    background-color: $grey;
+    img{
+        width: 100%;
+    }
+    h4{
+        @include fontStyleChocolateBoxWhite(24px);
+    }
+    .direction-left {
+        background-image: url("../img/events/Arrow\ -\ left\ Circle.svg");
+        width: 84px;
+        height: 84px;
+        position: absolute;
+        left: -100px;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+    }
+    
+    .direction-right {
+        background-image: url("../img/events/Arrow\ -\ Right\ Circle.svg");
+        width: 84px;
+        height: 84px;
+        position: absolute;
+        right: -100px;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+    }
+}
+

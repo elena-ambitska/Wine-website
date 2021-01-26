@@ -1,0 +1,221 @@
+[class*=icon] {
+    height: 20px;
+    width: 20px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.call-icon {
+    background-image: url(../img/contact/Call.svg);
+}
+
+.mail-icon {
+    background-image: url(../img/contact/Message.svg);
+}
+
+.location-icon {
+    background-image: url(../img/contact/Location.svg);
+}
+
+[class*=text] {
+    @include fontStylePoppinsWhite(18px, left);
+}
+
+.text {
+    margin-top: 0;
+    margin-bottom: 20px;
+
+}
+
+[class*=fill] {
+    height: 48px;
+    width: 48px;
+    display: inline-block;
+    margin-top: 60px;
+    margin-right: 50px;
+}
+
+.google-fill {
+    background-image: url(../img/contact/google.svg);
+}
+
+.linkedin-fill {
+    background-image: url(../img/contact/linkedin.svg);
+}
+
+.twitter-fill {
+    background-image: url(../img/contact/twitter.svg);
+}
+
+.facebook-fill {
+    background-image: url(../img/contact/facebook.svg);
+}
+
+.iconly {
+    display: inline;
+}
+
+.row-form {
+    position: relative;
+    margin-bottom: 30px;
+
+    label {
+        display: block;
+        position: absolute;
+    
+        top: -20px;
+        left: 10px;
+        background-color: $black;
+        padding-left: 5px;
+        padding-right: 5px;
+        @include fontStylePoppinsWhite(24px);
+    
+    }
+}
+
+
+
+
+
+.row-form input,
+.row-form textarea {
+    border: 1px solid $white;
+    background-color: transparent;
+    width: 100%;
+    height: 64px;
+    color: $white;
+    font-size: 24px;
+}
+
+.row-form textarea {
+    height: auto;
+}
+
+button.send {
+    width: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: $yellow;
+    color: $black;
+    margin-bottom: 160px;
+}
+
+.top {
+    align-items: flex-start;
+}
+
+.subscribe {
+    background-color: $grey;
+    padding-bottom: 63px;
+
+    h3 {
+        @include fontStyleChocolateBoxYellow(48px);
+        line-height: 28px;
+        margin-top: 57px;
+        margin-bottom: 24px;
+    }
+
+    p {
+        margin-bottom: 60px;
+    }
+
+}
+
+
+
+.news-form {
+    display: flex;
+
+    input {
+        background-color: $black;
+        flex-grow: 1;
+        border: none;
+
+
+        &::placeholder {
+            @include fontStylePoppinsWhite(18px, left);
+            padding-left: 10px;
+            line-height: 27px;
+
+        }
+    }
+
+    button {
+        width: auto;
+        color: $black;
+        background-color: $yellow;
+    }
+}
+
+.footers h4 {
+    color: $yellow;
+    margin-top: 133px;
+    margin-bottom: 42px;
+    text-align: left;
+}
+
+.footers {
+    li {
+        padding-top: 15px;
+    }
+
+    a {
+        @include fontStylePoppinsWhite(18px);
+        margin-top: 15px;
+    }
+
+}
+
+
+.size-s [class*=fill] {
+    background-size: cover;
+    width: 24px;
+    height: 24px;
+    margin-right: 20px;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+.footers [class*=text] {
+    font-size: 16px;
+    margin-top: 24px;
+}
+
+.footers [class*=icon] {
+    width: 18px;
+    height: 18px;
+    background-size: contain;
+}
+
+
+
+
+.size-s [class*=fill] {
+    background-size: cover;
+    width: 24px;
+    height: 24px;
+    margin-right: 20px;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+.footers [class*=text] {
+    font-size: 16px;
+    margin-top: 24px;
+}
+
+.footers [class*=icon] {
+    width: 18px;
+    height: 18px;
+    background-size: contain;
+}
+
+
+@font-face {
+    font-family: ChocolateBox;
+    src: url("../font/C_BOX.TTF");
+    src: url("../font/C_BOX_D.TTF");
+    font-style: normal;
+    font-weight: normal;
+}
