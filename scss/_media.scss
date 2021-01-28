@@ -38,12 +38,12 @@
         display: inline-block;
     }
 
-    .direction-right {
-        right: 0;
+    .events-slider .direction-right {
+        right: -20px;
     }
 
-    .direction-left {
-        left: 0;
+    .events-slider .direction-left {
+        left: -20px;
     }
 
     .row {
@@ -75,8 +75,8 @@
     }
 
     [class*=fill] {
-        margin-top: 40px;
-        margin-right: 30px;
+        margin-top: 15px;
+        margin-right: 10px;
     }
 
     .row-form:first-child {

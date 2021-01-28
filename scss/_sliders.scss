@@ -48,7 +48,7 @@
         width: 84px;
         height: 84px;
         position: absolute;
-        left: -100px;
+        left: -80px;
         top: 0;
         bottom: 0;
         margin: auto;
@@ -59,10 +59,15 @@
         width: 84px;
         height: 84px;
         position: absolute;
-        right: -100px;
+        right: -80px;
         top: 0;
         bottom: 0;
         margin: auto;
     }
+    
+        .events-slider .slick-arrow.slick-hidden {
+             display: block; 
+        }
+    
 }
 

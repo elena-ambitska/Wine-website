@@ -39,3 +39,14 @@ $(".review-slide").slick({
     slidesToShow: 1,
     adaptiveHeight: true 
 })
+
+$(".events-slider").slick({
+    "prevArrow":".direction-left",
+    "nextArrow":".direction-right",
+    centerMode: true,
+    slidesToShow: 1,
+  slidesToScroll: 1,
+    centerMode: true,
+
+
+});

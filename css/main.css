@@ -527,7 +527,7 @@ h3.futured {
     width: 84px;
     height: 84px;
     position: absolute;
-    left: -100px;
+    left: -80px;
     top: 0;
     bottom: 0;
     margin: auto; }
@@ -536,10 +536,12 @@ h3.futured {
     width: 84px;
     height: 84px;
     position: absolute;
-    right: -100px;
+    right: -80px;
     top: 0;
     bottom: 0;
     margin: auto; }
+  .events-slider .events-slider .slick-arrow.slick-hidden {
+    display: block; }
 
 [class*=icon] {
   height: 20px;
@@ -913,10 +915,10 @@ textarea {
     display: none; }
   .col-xs-show {
     display: inline-block; }
-  .direction-right {
-    right: 0; }
-  .direction-left {
-    left: 0; }
+  .events-slider .direction-right {
+    right: -20px; }
+  .events-slider .direction-left {
+    left: -20px; }
   .row {
     margin-left: 0;
     margin-right: 0; }
@@ -934,8 +936,8 @@ textarea {
     justify-content: center;
     text-align: center; }
   [class*=fill] {
-    margin-top: 40px;
-    margin-right: 30px; }
+    margin-top: 15px;
+    margin-right: 10px; }
   .row-form:first-child {
     margin-top: 40px; }
   button.send {
