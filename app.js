@@ -92,3 +92,13 @@ let filter = function () {
    
 };
 filter();
+
+let viewMore = function(){
+    let button= document.getElementById("view-more");
+    button.addEventListener("click", function(el){
+el.preventDefault();
+let list = document.getElementById("products");
+list.innerHTML+=list.innerHTML;
+    })
+}
+viewMore();
