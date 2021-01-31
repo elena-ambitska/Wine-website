@@ -189,6 +189,10 @@ p {
   margin-top: 75px;
   display: block; }
 
+.second button:hover {
+  background-color: #E2B024;
+  color: #1F1F1F; }
+
 .banner-img {
   text-align: center; }
 
@@ -246,6 +250,8 @@ p {
     margin-right: -20px; }
   .slider .slick-slide img {
     margin: auto; }
+  .slider .slick-slide:focus {
+    outline: none; }
 
 h5 {
   font-family: Poppins;

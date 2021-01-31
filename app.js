@@ -72,9 +72,9 @@ let filter = function () {
     grade.forEach(function (el) {
         el.addEventListener("click", function (event) {
             event.preventDefault();
-            let category=event.currentTarget.getAttribute("data-filter");
+            let category = event.currentTarget.getAttribute("data-filter");
             let filterItems = document.querySelectorAll(".product-wrap");
-           
+
             filterItems.forEach(item => {
                 if (category === 'all' || item.className.toLowerCase().indexOf(category) > -1) {
                     item.style.display = "block";
@@ -82,23 +82,23 @@ let filter = function () {
                     item.style.display = 'none';
                 }
             })
-            for (let i = 0; i <grade.length; i++) {
+            for (let i = 0; i < grade.length; i++) {
                 grade[i].parentElement.className = grade[i].parentElement.className.replace("active", "");
-                
+
             }
             event.currentTarget.parentElement.className += " active";
         })
     })
-   
+
 };
 filter();
 
-let viewMore = function(){
-    let button= document.getElementById("view-more");
-    button.addEventListener("click", function(el){
-el.preventDefault();
-let list = document.getElementById("products");
-list.innerHTML+=list.innerHTML;
+let viewMore = function () {
+    let button = document.getElementById("view-more");
+    button.addEventListener("click", function (el) {
+        el.preventDefault();
+        let list = document.getElementById("products");
+        list.innerHTML += list.innerHTML;
     })
 }
 viewMore();

@@ -29,9 +29,13 @@ p {
     margin-top: 75px;
     display: block;
     
+   
 }
 
-
+.second button:hover {
+    background-color: #E2B024;
+    color: #1F1F1F;
+}
 .banner-img {
     text-align: center;
 }
@@ -97,6 +101,12 @@ p {
         
             .slick-slide img {
                 margin: auto;
+                
+            }
+            .slick-slide{
+                &:focus{
+                    outline: none;
+                }
             }
 }
 
